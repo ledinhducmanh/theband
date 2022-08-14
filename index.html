@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" type="favition.icon" href="assets/img/bandmember.jpg">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The band</title>
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="home"></div>
+    <div id="main">
+        <div id="header">
+            <ul id="nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#band">Band</a></li>
+                <li><a href="#tour">Tour</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <a href="#">More <i class="fa-solid fa-caret-down"></i></a>
+                    <ul class="subnav">
+                        <li><a href="#footer">Merchandise</a></li>
+                        <li><a href="#footer">Extras</a></li>
+                        <li><a href="#footer">Media</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="search-btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div id="bar-btn" class="bar-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+
+        <div id="slider">
+            <div class="text-content">
+                <h2 class="text-heading">Chicago</h2>
+                <p class="text-description">Thank you, Chicago - A night we won't forget.</p>
+            </div>
+        </div>
+
+        <div id="content">
+            <!-- The band section -->
+            <div id="band" class="content-section">
+                <h1 class="section-heading">THE BAND</h1>
+                <p class="section-sub-heading">We love music</p>
+                <p class="about-text">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div class="row members-list">
+                    <div class="col col-third content-item text-content">
+                        <p class="members-name">Name</p>
+                        <img src="./assets/img/bandmember.jpg" alt="Name" class="members-img">
+                    </div>
+                    <div class="col col-third content-item text-content">
+                        <p class="members-name">Name</p>
+                        <img src="./assets/img/bandmember.jpg" alt="Name" class="members-img">
+                    </div>
+                    <div class="col col-third content-item text-content">
+                        <p class="members-name">Name</p>
+                        <img src="./assets/img/bandmember.jpg" alt="Name" class="members-img">
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <!-- Tour dates section -->
+            <div id="tour" class="tour-section">
+                <div class="content-section">
+                    <h1 class="section-heading text-white">TOUR DATES</h1>
+                    <p class="section-sub-heading text-white">Remember to book your tickets!</p>
+                    <!-- Tickets -->
+                    <ul class="tickets-list">
+                        <li class="tickets-item">September <span class="sold-out">Sold out</span> </li>
+                        <li class="tickets-item">October <span class="sold-out">Sold out</span> </li>
+                        <li class="tickets-item">November <span class="quantity">3</span> </li>
+                    </ul>
+                    <!-- Places -->
+                    <div class="places row">
+                        <div class="col col-third content-item">
+                            <img src="./assets/img/newyork.jpg" alt="" class="places-img">
+                            <div class="places-body">
+                                <h3 class="places-heading">New York</h3>
+                                <p class="places-time">Fri 27 Nov 2016</p>
+                                <p class="places-decs">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <!-- <div onclick="showModal();" class="places-buy-btn">Buy Tickets</div> -->
+                                <button class="btn js-buy-tickets">Buy Tickets</button>
+                            </div>
+                        </div>
+                        <div class="col col-third content-item">
+                            <img src="./assets/img/paris.jpg" alt="" class="places-img">
+                            <div class="places-body">
+                                <h3 class="places-heading">Paris</h3>
+                                <p class="places-time">Sat 28 Nov 2016</p>
+                                <p class="places-decs">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <!-- <div onclick="showModal();" class=btn">Buy Tickets</div> -->
+                                <button class="btn js-buy-tickets">Buy Tickets</button>
+                            </div>
+                        </div>
+                        <div class="col col-third content-item">
+                            <img src="./assets/img/sanfran.jpg" alt="" class="places-img">
+                            <div class="places-body">
+                                <h3 class="places-heading">San Francisco</h3>
+                                <p class="places-time">Sun 29 Nov 2016</p>
+                                <p class="places-decs">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <!-- <div onclick="showModal();" class=btn">Buy Tickets</div> -->
+                                <button class="btn js-buy-tickets">Buy Tickets</button>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Contact section -->
+            <div id="contact" class="content-section">
+                <h1 class="section-heading">CONTACT</h1>
+                <p class="section-sub-heading">Fan? Drop a note!</p>
+                <div class="row contact-content">
+                    <div class="col col-half contact-info">
+                        <p><i class="fa-solid fa-location-dot"></i>Chicago, US</p>
+                        <p><i class="fa-solid fa-phone"></i>Phone: +00 151515</p>
+                        <p><i class="fa-solid fa-envelope"></i>Email: mail@mail.com</p>
+                    </div>
+                    <div class="col col-half contact-form">
+                        <form action="">
+                            <div class="row">
+                                <div class="col col-half contact-input">
+                                    <input type="text" placeholder="Name" class="form-control">
+                                </div>
+                                <div class="col col-half contact-input">
+                                    <input type="email" placeholder="Email" class="form-control">
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="row mt-8">
+                                <div class="col col-full mt-8">
+                                    <input type="text" placeholder="Message" class="form-control">
+                                </div>
+                            </div>
+                            <input class="pull-right btn mt-16 font-uppercase" type="submit" value="Send">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- end contact  -->
+            <div class="map-section">
+                <img src="./assets/img/map.jpg" alt="">
+            </div>
+        </div>
+
+        <div id="footer">
+            <div class="social-list">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-snapchat"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+            <p class="copy-right">Powered by <a href="#">w3.css</a> </p>
+        </div>
+    </div>
+    <!-- <div id="modal"></div> -->
+    <div class="modal js-modal">
+        <div class="modal-container">
+            <div class="modal-close js-modalClose">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+
+            <header class="modal-header">
+                <i class="fa-solid fa-suitcase"></i>
+                Tickets
+            </header>
+
+            <div class="modal-body">
+                <label for="" class="modal-label">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Tickets, $15 per person
+                </label>
+                <input class="modal-input" type="text" name="" id="" placeholder="How many ?">
+
+                <label for="" class="modal-label">
+                    <i class="fa-solid fa-user"></i>
+                    Send To
+                </label>
+                <input class="modal-input" type="email" name="" id="" placeholder="Enter email">
+                <button class="buy-tickets">Pay <i class="fa-solid fa-check"></i> </button>
+                <footer class="modal-footer">
+                    <p class="modal-help"> Need <a href="#" class="modal-help-link"> help? </a> </p>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <!-- <script>
+
+        function modal() {
+            const main = document.getElementById('modal')
+            if (main) {
+                const modal = document.createElement('div');
+                modal.onclick = function(e) {
+                    if(e.target.closest('.modal-close')) {
+                        main.removeChild(modal);
+                    }
+                }
+                modal.classList.add('modal');
+                modal.innerHTML = `
+            <div class="modal">
+                <div class="modal-content">
+                    <div class="modal-container">
+                        <div class="modal-close">
+                            <i class="ti-close"></i>
+                        </div>
+            
+                        <header class="modal-header">
+                            <i class="ti-bag"></i>
+                            Tickets
+                        </header>
+            
+                        <div class="modal-body">
+                            <label for="" class="modal-label">
+                                <i class="ti-shopping-cart"></i>
+                                Tickets, $15 per person
+                            </label>
+                            <input class="modal-input" type="text" name="" id="" placeholder="How many ?">
+            
+                            <label for="" class="modal-label">
+                                <i class="ti-user"></i>
+                                Send To
+                            </label>
+                            <input class="modal-input" type="email" name="" id="" placeholder="Enter email">
+                            <button class="buy-tickets">Pay <i class="ti-check"></i> </button>
+                            <footer class="modal-footer">
+                                <p class="modal-help"> Need <a href="#" class="modal-help-link"> help? </a> </p>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+                `;
+                main.appendChild(modal);
+            }
+        }
+        function showModal() {
+            
+            modal()
+        }
+    </script> -->
+    <script>
+        const buyBtns = document.querySelectorAll('.js-buy-tickets')
+        const modal = document.querySelector('.js-modal')
+        const removeModal = document.querySelector('.js-modalClose')
+        
+        function showBuyTickets() {
+            modal.classList.add('open')
+        }
+
+        function removeBuyTickets() {
+            modal.classList.remove('open')
+        }
+
+
+        for (const buyBtn of buyBtns) {
+            buyBtn.addEventListener('click' , showBuyTickets)
+        }
+
+        removeModal.addEventListener('click' , removeBuyTickets)
+    </script>
+    <script>
+        var header = document.getElementById('header');
+        var barBtn = document.getElementById('bar-btn');
+        var headerHeight = header.clientHeight;
+        // Đóng mở mobile menu
+        barBtn.onclick = function(e) {
+            var Closed = header.clientHeight === headerHeight;
+            if(Closed) {
+                header.style.height = 'auto';
+            }
+            else {
+                header.style.height = null;
+            }
+        }
+
+        // Tự động đóng khi chọn menu 
+        var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+        for ( var i = 0 ; i < menuItems.length ; i++) {
+            var menuItem = menuItems[i];
+            
+            // Subnav
+            menuItem.onclick = function(event) {
+                var isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
+                if (isParentMenu) {
+                    event.preventDefault();
+                }
+                else {
+                    header.style.height = null;
+                }
+                
+            }
+        }
+
+         
+        
+    </script>
+    <!-- Smooth Scroll -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+    
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+    
+          // Store hash
+          var hash = this.hash;
+    
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+    
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+    </script>
+    <!-- ===================== -->
+</body>
+</html>

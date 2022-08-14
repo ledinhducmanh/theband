@@ -1,0 +1,24 @@
+Những thành phần thường gặp trong giao diện website 
+1.	Header ( Đầu trang )
+2.	Navigation ( Điều Hướng )
+3.	Breadcrumb  ( Trang chủ > HTML )
+4.	Sidebar ( Thanh  Trái )
+5.	Slider 
+6.	Banner ( Gif quảng cáo hoặc hình ảnh qc)
+7.	Content ( Nội dung )
+8.	Footer ( Cuối trang )
+
+1. Phân tích  --> Ok
+1.	Header
+2.	Slide 
+3.	Content 
+1.	About
+2.	Tourist
+3.	Contract
+4.	Img
+5.	Footer
+4.	Footer
+2. Dựng Base  ( xây mảng )
+3. Xây dựng từng phần theo phân tích
+4. Hoàn thiện 
+

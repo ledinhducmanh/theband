@@ -1,0 +1,123 @@
+/* Reset Css */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #333;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+body {
+    font-family: "Lato", sans-serif
+}
+:root {
+    --white-color: #fff !important;
+    --back-color: #000 !important;
+}
+.text-white {
+    color: var(--white-color);
+}
+/* Modal */
+@keyframes inSlide {
+    from {
+        opacity: 0;
+        transform: scale(0)
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+/* .modal-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: inSlide .3s ease;
+    position: fixed;
+    top: 0;right: 0;left: 0;bottom: 0;
+} */
+.modal.open {
+    display: flex !important;
+}
+.modal {
+    position: fixed;
+    top: 0;right: 0;left: 0;bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+    animation: .3s ease-in;
+    display: none;
+}
+.modal-container {
+    background-color: var(--white-color);
+    min-height: 200px;
+    width: 900px;
+    position: relative;
+    animation: inSlide .3s ease;
+}
+.modal-header {
+    height: 130px;
+    font-size: 30px;letter-spacing: 5px;
+    display: flex; justify-content: center;align-items: center;
+    background-color: #009688!important;
+    color: var(--white-color);
+}
+.modal-close {
+    position: absolute;
+    top: 0; right: 0;
+    padding: 18px 16px;
+    color: var(--white-color);
+}
+.modal-close:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+.modal-body {
+    padding: 0 16px;
+}
+.modal-label {
+    display: block;
+    margin: 15px 0;
+}
+.modal-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+}
+.buy-tickets {
+    width: 100%;
+    margin: 15px 0;
+    padding: 16px;
+    background-color: #009688;
+    border: none;
+    color: var(--white-color);
+    transition: .3s;
+}
+.buy-tickets:hover {
+    background-color: #ccc;
+    color: var(--back-color);
+    transition: .3s;
+
+}
+.modal-footer {
+
+}
+.modal-help {
+    margin: 15px 0;
+    text-align: right;
+}
+.modal-help-link {
+    color: #009688;
+    border-bottom: 1px solid #009688;
+    
+}

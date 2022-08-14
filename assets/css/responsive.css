@@ -1,0 +1,78 @@
+/* Max width: toi da VD max-width: 100px = 0 - 100 mới chạy */
+/* Min width: toi thieu VD min-width: 100px = 100 ->  mới chạy */
+
+/*  Pc >= 1024px
+    Tablet >= 740px & < 1024px
+    Mobile < 740    
+*/
+@media (min-width: 64em) {
+    .bar-btn {
+        display: none;
+    }
+}
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    .bar-btn {
+        display: none;
+    }
+    .modal-container {
+        width: 730px !important;
+    }
+
+}
+@media (max-width: 46.1875em) {
+    #header {
+        overflow: hidden;
+    }
+    #nav , #nav > li{
+        display: block !important;
+    }
+    .search-btn {
+        display: none;
+    }
+    .bar-btn {
+        position: absolute;
+        top: 0; right: 0;
+    }
+    #nav > li:first-child {
+        display: inline-block !important;
+    }
+    .subnav {
+        position: initial !important;
+    }
+    .subnav li a {
+        color: var(--white-color) !important;
+        background-color: var(--back-color);
+        text-transform: uppercase;
+        padding: 0 24px !important;
+    }
+
+    /* Member */
+
+    .content-item  {
+        float: initial !important;
+        width: auto !important;
+        margin-top: 30px;
+    }
+    .contact-input {
+        width: 100%;
+    }
+    .members-img {
+        width: 60%;
+        height: 60% !important;
+    }
+    
+    /* Tour Date */
+    .contact-info , .contact-form{
+        float: initial !important;
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+    .modal-container {
+        margin: 10px;
+    }
+    .btn {
+        width: 100%;
+        line-height: 30px;
+    }
+}
+
